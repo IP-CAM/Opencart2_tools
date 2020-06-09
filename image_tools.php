@@ -7,9 +7,11 @@
 <?php
   /**
   * @author Dima Kuzmin
+  * 
   */
 //Random placement of images for products from the set of images for OpenCard 2.3
 //opencart table prefix
+
 $prefix = 'oc2017';
 //array of pictures
 $input = array("catalog/image/data/ЖБИ - Плиты перекрытия/img_5021-23-01-19-01-50.jpg", "catalog/image/data/ЖБИ - Плиты перекрытия/img_5022-23-01-19-01-50.jpg", "catalog/image/data/ЖБИ - Плиты перекрытия/img_5023-23-01-19-01-50.jpg", "catalog/image/data/ЖБИ - Плиты перекрытия/img_5029-23-01-19-01-50.jpg", "catalog/image/data/ЖБИ - Плиты перекрытия/img_5030-23-01-19-01-50.jpg", "catalog/image/data/ЖБИ - Плиты перекрытия/img_5032-23-01-19-01-50.jpg", "catalog/image/data/ЖБИ - Плиты перекрытия/img_5033-23-01-19-01-50.jpg", "catalog/image/data/ЖБИ - Плиты перекрытия/img_5034-23-01-19-01-50.jpg", "catalog/image/data/ЖБИ - Плиты перекрытия/img_5035-23-01-19-01-50.jpg", "catalog/image/data/ЖБИ - Плиты перекрытия/img_5036-23-01-19-01-50.jpg");
