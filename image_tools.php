@@ -5,8 +5,13 @@
 </head>
 <body>
 <?php
+  /**
+  * @author Dima Kuzmin
+  * 
+  */
 //Random placement of images for products from the set of images for OpenCard 2.3
 //opencart table prefix
+
 $prefix = 'oc2017';
 //image Directory
 $img_cat = 'ЖБИ - Перемычки';
@@ -27,7 +32,5 @@ echo 'INSERT INTO `'.$prefix .'_product_image` (`product_image_id`, `product_id`
 echo 'INSERT INTO `'.$prefix .'_product_image` (`product_image_id`, `product_id`, `image`, `sort_order`) VALUES (NULL, \''.$val.'\', \''.$input[$rand_keys[1]].'\',\'0\');<br>';
 }
 ?>
-
-
 </body>
 </html>
